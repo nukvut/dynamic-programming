@@ -35,10 +35,11 @@ input{
   border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.result{
+#result{
   color: black;
   word-wrap: break-word;
   text-align: center;
+  margin-top: 10px;
   margin-left: 20%;
   margin-right: 20%;
   font-family: Micra, sans-serif;
