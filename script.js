@@ -60,5 +60,13 @@ for(let i=0;i<n1;i++)
       }
     }
   }
+if (n1!==n2 && p[n1-1][n2-1]==0)
+  {
+    if (n1>n2)
+      {return p[n1-1][n2-1]+n1-n2}
+    else 
+      {return p[n1-1][n2-1]+n2-n1}
+
+  }
 return p[n1-1][n2-1]
 }
